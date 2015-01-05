@@ -1,5 +1,7 @@
 Assignment 2, Due at 11:59pm, Sunday Sep 14
 
+Only the algos.cpp is written by me. Other files were given by my Professor Dr. Hung Ngo.
+
 Objectives:
 
 Getting slightly more comfortable with C++: make use of vector and set data structures, and learn how to sort elements of a 
