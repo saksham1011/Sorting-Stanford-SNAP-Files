@@ -1,5 +1,5 @@
 Assignment 2, Due at 11:59pm, Sunday Sep 14
-Objectives
+Objectives:
 
 Getting slightly more comfortable with C++: make use of vector and set data structures, and learn how to sort elements of a vector.
 Get a sense of how different data structure (and algorithm) choices can have a huge effect on the runtime of your program. Later on in the course, you will see that we could have known "in advanced" which of the two algorithms (sba and vba below) we should have chosen without even implementing them. We will have much more to say about analyzing the kind of data structures and algorithms to solve more complicated problems than this one.
@@ -18,7 +18,7 @@ This algorithm uses the built-in sort algorithm and the erase function. When all
 
 Algorithm 2, called the set-based algorithm (or sba for short) does the following: it reads the edges stored in the file one by one, for each edge read the algorithm inserts the edge into a std::set. Since std::set is a data structure that stores unique elements, duplicated edges will not be inserted. In the end, the algorithm reports the size of the resulting set.
 
-Example Input
+Example Input:
 
 # Graph : p2p-Gnutella04.txt 
 # Directed Gnutella P2P network from August 4 2002
